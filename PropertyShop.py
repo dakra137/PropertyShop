@@ -3,15 +3,11 @@
 Property Shop for dynamically creating customized python properties - Enhanced for spreadsheet-like capability
 ©2025 David A. Kra dakra137@gmail.com  This work is openly licensed with Creative Commons CC BY-SA 4.0 license
                                        https://creativecommons.org/licenses/by-sa/4.0/
-v.0.9 original publicly posted on github https://github.com/dakra137/PropertyShopPrivate/blob/main/PropertyShop.py 
+v.0.9 original publicly posted on github https://github.com/dakra137/PropertyShop/blob/main/PropertyShop.py 
 
-See the documentation in the README at https://github.com/dakra137/PropertyShopPrivate 
+See the documentation in the README at https://github.com/dakra137/PropertyShop 
+See a more extensive set of test case eamples in https://github.com/dakra137/PropertyShop/PropertyShopTestCases.py
 """
-
-''' whatever 
-more
-'''
-
 
 def PropertyShopFactory():
 
