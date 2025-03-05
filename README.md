@@ -72,7 +72,7 @@ print(f"Name: {ps.name} at {ps.address} in {ps.city}, {ps.state}  {ps.postalcode
 		
 Easy, isn't it?
 
-## Module summary example using all the functions and methods
+## Module quick summary example using all the functions and methods
 
 ```python
 from PropertyShop import PropertyShopFactory
@@ -80,12 +80,15 @@ ps=PropertyShopFactory() # create a Property Shop
 ps.addProperty("z")      # create a minimal property
 ps.addProperty(["a","b"],0,sc=float,gc=str) # create properties a and b within ps. They are always set to float, but get reports them out as string.
 ps.addProperty("c",0,sc=lambda x:float(ps.a*ps.b),gc=str,recalc=True,doc="ps.c = ps.a*ps.b") # create a property which is the product of ps.a * ps.b and is recalculated by ps.recalculate
+ps.addProperty("d",0,gc=str(ps.a*ps.b),doc="ps.c = ps.a*ps.b") # create a property which is the product of ps.a * ps.b and is automatically recalculated when retrieved.
 print(ps.a) # use a property
 ps.b=3.14159265   # set a property
 for item in ps.inventory(): print(item) # print the inventory of properties in this Property Shop
+print(ps.a,ps.b,ps.c, ps.d)
 ps.recalculate()      # recalculate the properties specified with recalc=True, such as ps.c
-print(ps.a,ps.b,ps.c)
+print(ps.a,ps.b,ps.c, ps.d)
 objidpsc=ps.propobj(ps.c)  # get the object id of the property
+ps..makealias("c",ps,"x") # ps.x will be an alias for ps.c (not a copy), with the same recalculation characteristics.
 del ps.b    # delete a property
 ps.empty()  # delete all properties in ps
 ```
