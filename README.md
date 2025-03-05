@@ -7,10 +7,12 @@ Revisions:
 - version 0.9 First public version
 
 **Contains:**
-- README.md 
-- LICENSE
-- PropertyShop.py
-- PropertyShopTestCases.py
+- [README.md](https://github.com/dakra137/PropertyShop/blob/main/README.md)
+- [LICENSE](https://github.com/dakra137/PropertyShop/blob/main/LICENSE)
+- [PropertyShop.py](https://github.com/dakra137/PropertyShop/blob/main/PropertyShop.py)
+- [PropertyShopTestCases.py](https://github.com/dakra137/PropertyShop/blob/main/PropertyShopTestCases.py)
+
+- Also: the [wiki](https://github.com/dakra137/PropertyShop/wiki) 
 
 #### Backstory
 Python properties are very convenient to use, but inconvenient to create, especially if there will be many of them. This module removes the inconveniences and adds several conveniences.
