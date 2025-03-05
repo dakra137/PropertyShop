@@ -88,7 +88,7 @@ print(ps.a,ps.b,ps.c, ps.d)
 ps.recalculate()      # recalculate the properties specified with recalc=True, such as ps.c
 print(ps.a,ps.b,ps.c, ps.d)
 objidpsc=ps.propobj(ps.c)  # get the object id of the property
-ps..makealias("c",ps,"x") # ps.x will be an alias for ps.c (not a copy), with the same recalculation characteristics.
+ps.makealias("c",ps,"x") # ps.x will be an alias for ps.c (not a copy), with the same recalculation characteristics.
 del ps.b    # delete a property
 ps.empty()  # delete all properties in ps
 ```
