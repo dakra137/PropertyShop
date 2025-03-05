@@ -72,7 +72,7 @@ print(f"Name: {ps.name} at {ps.address} in {ps.city}, {ps.state}  {ps.postalcode
 		
 Easy, isn't it?
 
-## Module Summary Example
+## Module summary example using all the functions and methods
 
 ```python
 from PropertyShop import PropertyShopFactory
@@ -81,9 +81,10 @@ ps.addProperty("z")      # create a minimal property
 ps.addProperty(["a","b"],0,sc=float,gc=str) # create properties a and b within ps. They are always set to float, but get reports them out as string.
 ps.addProperty("c",0,sc=lambda x:float(ps.a*ps.b),gc=str,recalc=True,doc="ps.c = ps.a*ps.b") # create a property which is the product of ps.a * ps.b and is recalculated by ps.recalculate
 print(ps.a) # use a property
-ps.b=3.14   # set a property
+ps.b=3.14159265   # set a property
 print(ps.inventory()) # print the inventory of properties in this Property Shop
 ps.recalculate()      # recalculate the properties specified with recalc=True, such as ps.c
+print(ps.a,ps.b,ps.c)
 objidpsc=ps.propobj(ps.c)  # get the object id of the property
 del ps.b    # delete a property
 ps.empty()  # delete all properties in ps
