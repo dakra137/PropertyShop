@@ -9,6 +9,8 @@ See the documentation in the README at https://github.com/dakra137/PropertyShop
 See a more extensive set of test case eamples in https://github.com/dakra137/PropertyShop/PropertyShopTestCases.py
 
 Special thanks and appreciation to:
+Eevee and  martineau for
+https://stackoverflow.com/questions/1325673/how-to-add-property-to-a-class-dynamically/79484861#79484861 
 Ben Hsing ( blhsing ) for https://stackoverflow.com/questions/79481870/how-do-you-unwrap-a-python-property-to-get-attributes-from-the-getter/79482480#79482480  
 """
 
