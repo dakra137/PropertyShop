@@ -756,7 +756,7 @@ This may change in version 1.0
 ### References, Citations and Acknowledgements
 
 Thank you to the stackoverflow responders who quickly answered questions, even coding and providing examples.
-
+<pre></pre>
 https://stackoverflow.com/posts/1355444/revisions  
 https://stackoverflow.com/questions/79481870/how-do-you-unwrap-a-python-property-to-get-attributes-from-the-getter/79482480#79482480
 	 https://www.dropbox.com/scl/fi/vahot6oi1ddt3epasyyie/dynamic_properties_simple.py?rlkey=q8rqcpufdf4lva2y0ahmih798&e=1&dl=0
@@ -783,4 +783,4 @@ https://stackoverflow.com/questions/77669846/is-there-a-way-to-type-hint-a-class
 https://www.freecodecamp.org/news/python-attributes-class-and-instance-attribute-examples/
 https://stackoverflow.com/questions/7117892/how-do-i-assign-a-property-to-an-instance-in-python
 https://stackoverflow.com/a/7118013/1496279
-
+</pre>
