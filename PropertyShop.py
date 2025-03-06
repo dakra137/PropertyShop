@@ -7,6 +7,9 @@ v.0.9 original publicly posted on github https://github.com/dakra137/PropertySho
 
 See the documentation in the README at https://github.com/dakra137/PropertyShop 
 See a more extensive set of test case eamples in https://github.com/dakra137/PropertyShop/PropertyShopTestCases.py
+
+Special thanks and appreciation to:
+Ben Hsing ( blhsing ) for https://stackoverflow.com/questions/79481870/how-do-you-unwrap-a-python-property-to-get-attributes-from-the-getter/79482480#79482480  
 """
 
 def PropertyShopFactory():
