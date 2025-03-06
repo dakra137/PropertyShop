@@ -756,7 +756,7 @@ This may change in version 1.0
 ### References, Citations and Acknowledgements
 
 Thank you to the stackoverflow responders who quickly answered questions, even coding and providing examples.
-<pre></pre>
+<pre>
 https://stackoverflow.com/posts/1355444/revisions  
 https://stackoverflow.com/questions/79481870/how-do-you-unwrap-a-python-property-to-get-attributes-from-the-getter/79482480#79482480
 	 https://www.dropbox.com/scl/fi/vahot6oi1ddt3epasyyie/dynamic_properties_simple.py?rlkey=q8rqcpufdf4lva2y0ahmih798&e=1&dl=0
